@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Notation</class>
+ <widget class="QMainWindow" name="Notation">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>550</width>
+    <height>796</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>550</width>
+      <height>800</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="page">
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>550</width>
+        <height>800</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>Слой 1.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_1_1">
+      <property name="geometry">
+       <rect>
+        <x>235</x>
+        <y>740</y>
+        <width>21</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:#F0F2F6;
+border-radius: 5px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Слой 2.png</normaloff>Слой 2.png</iconset>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_1_2">
+      <property name="geometry">
+       <rect>
+        <x>265</x>
+        <y>740</y>
+        <width>21</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:#F0F2F6;
+border-radius: 5px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Слой 3.png</normaloff>Слой 3.png</iconset>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_1_3">
+      <property name="geometry">
+       <rect>
+        <x>295</x>
+        <y>740</y>
+        <width>21</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:#F0F2F6;
+border-radius: 5px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Слой 3.png</normaloff>Слой 3.png</iconset>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_1_4">
+      <property name="geometry">
+       <rect>
+        <x>325</x>
+        <y>740</y>
+        <width>21</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:#F0F2F6;
+border-radius: 5px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Слой 3.png</normaloff>Слой 3.png</iconset>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_2">
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>550</width>
+        <height>1921</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>Слой 5.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_original_number_system">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>410</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_number">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>410</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_number_system_is_finite">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>570</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_2_2">
+      <property name="geometry">
+       <rect>
+        <x>265</x>
+        <y>740</y>
+        <width>21</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:#F0F2F6;
+border-radius: 5px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Слой 2.png</normaloff>Слой 2.png</iconset>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_2_1">
+      <property name="geometry">
+       <rect>
+        <x>235</x>
+        <y>740</y>
+        <width>21</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:#F0F2F6;
+border-radius: 5px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Слой 3.png</normaloff>Слой 3.png</iconset>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_2_3">
+      <property name="geometry">
+       <rect>
+        <x>295</x>
+        <y>740</y>
+        <width>21</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:#F0F2F6;
+border-radius: 5px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Слой 3.png</normaloff>Слой 3.png</iconset>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_2_4">
+      <property name="geometry">
+       <rect>
+        <x>325</x>
+        <y>740</y>
+        <width>21</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:#F0F2F6;
+border-radius: 5px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Слой 3.png</normaloff>Слой 3.png</iconset>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_count">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>620</y>
+        <width>551</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>17</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:#787CD1;
+color:white;
+border-radius: 2px;</string>
+      </property>
+      <property name="text">
+       <string>Посчитать</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_3">
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>550</width>
+        <height>800</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>Слой 4.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_conclusion">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>130</y>
+        <width>211</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>25</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+        <underline>false</underline>
+        <strikeout>false</strikeout>
+        <stylestrategy>PreferDefault</stylestrategy>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: white;</string>
+      </property>
+      <property name="text">
+       <string>Вывод</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_3_1">
+      <property name="geometry">
+       <rect>
+        <x>235</x>
+        <y>740</y>
+        <width>21</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:#F0F2F6;
+border-radius: 5px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Слой 3.png</normaloff>Слой 3.png</iconset>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_3_2">
+      <property name="geometry">
+       <rect>
+        <x>265</x>
+        <y>740</y>
+        <width>21</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:#F0F2F6;
+border-radius: 5px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Слой 3.png</normaloff>Слой 3.png</iconset>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_3_4">
+      <property name="geometry">
+       <rect>
+        <x>325</x>
+        <y>740</y>
+        <width>21</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:#F0F2F6;
+border-radius: 5px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Слой 3.png</normaloff>Слой 3.png</iconset>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_3_3">
+      <property name="geometry">
+       <rect>
+        <x>295</x>
+        <y>740</y>
+        <width>21</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:#F0F2F6;
+border-radius: 5px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Слой 2.png</normaloff>Слой 2.png</iconset>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_4">
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>550</width>
+        <height>800</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>Слой 6.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_4_1">
+      <property name="geometry">
+       <rect>
+        <x>235</x>
+        <y>740</y>
+        <width>21</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:#302B70;
+border-radius: 5px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Слой 7.png</normaloff>Слой 7.png</iconset>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_4_2">
+      <property name="geometry">
+       <rect>
+        <x>265</x>
+        <y>740</y>
+        <width>21</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:#302B70;
+border-radius: 5px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Слой 7.png</normaloff>Слой 7.png</iconset>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_4_3">
+      <property name="geometry">
+       <rect>
+        <x>295</x>
+        <y>740</y>
+        <width>21</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:#302B70;
+border-radius: 5px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Слой 7.png</normaloff>Слой 7.png</iconset>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_4_4">
+      <property name="geometry">
+       <rect>
+        <x>325</x>
+        <y>740</y>
+        <width>21</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:#302B70;
+border-radius: 5px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Слой 8.png</normaloff>Слой 8.png</iconset>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
