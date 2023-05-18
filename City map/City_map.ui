@@ -1,0 +1,4148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1600</width>
+    <height>900</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>City_map</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1600</width>
+      <height>900</height>
+     </rect>
+    </property>
+    <widget class="QWidget" name="Main_page_0">
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1600</width>
+        <height>900</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>1.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Switch_Registration_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>590</y>
+        <width>671</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(0,0,0,0);
+border: none;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Registration_Page_1">
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1600</width>
+        <height>900</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>2.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Registration_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>817</x>
+        <y>648</y>
+        <width>592</width>
+        <height>113</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(0,0,0,0);
+border: none;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Lodin_LineEdit">
+      <property name="geometry">
+       <rect>
+        <x>1120</x>
+        <y>451</y>
+        <width>361</width>
+        <height>31</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Password_LineEdit">
+      <property name="geometry">
+       <rect>
+        <x>1170</x>
+        <y>550</y>
+        <width>311</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Password</enum>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Areas_Page_2">
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1600</width>
+        <height>900</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>3.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="switch_Railway_area_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>280</y>
+        <width>221</width>
+        <height>231</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: rgba(0,0,0,0);
+border: none;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="switch_Voroshilovsky_area_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>280</y>
+        <width>221</width>
+        <height>231</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: rgba(0,0,0,0);
+border: none;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="switch_Kirovsky_area_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>580</y>
+        <width>221</width>
+        <height>231</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: rgba(0,0,0,0);
+border: none;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="switch_Leninsky_area_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>580</y>
+        <width>221</width>
+        <height>231</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: rgba(0,0,0,0);
+border: none;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="switch_Pervomaisky_area_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>890</x>
+        <y>280</y>
+        <width>221</width>
+        <height>231</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: rgba(0,0,0,0);
+border: none;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="switch_Oktyabrsky_area_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>890</x>
+        <y>580</y>
+        <width>221</width>
+        <height>231</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: rgba(0,0,0,0);
+border: none;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="switch_Proletarsky_area_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>1280</x>
+        <y>280</y>
+        <width>221</width>
+        <height>231</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: rgba(0,0,0,0);
+border: none;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="switch_Soviet_area_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>1280</x>
+        <y>580</y>
+        <width>221</width>
+        <height>231</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: rgba(0,0,0,0);
+border: none;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Railway_area_Page_3">
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1600</width>
+        <height>900</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>4.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="switch_Railway_area__Areas_Page_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>50</y>
+        <width>171</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(0,0,0,0);
+border: none;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>110</y>
+        <width>881</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>35</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>Железнодорожный район</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>720</y>
+        <width>571</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>17</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+        <underline>false</underline>
+        <strikeout>false</strikeout>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>Ростов-на-Дону, переулок Ботанический спуск, 7</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>830</x>
+        <y>720</y>
+        <width>571</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>17</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+        <underline>false</underline>
+        <strikeout>false</strikeout>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>Ростов-на-Дону, Кумженская роща</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Botanical_Garden_photo">
+      <property name="geometry">
+       <rect>
+        <x>153</x>
+        <y>265</y>
+        <width>620</width>
+        <height>333</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>8.jpg</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Kumzhenskaya_Grove_photo">
+      <property name="geometry">
+       <rect>
+        <x>826</x>
+        <y>265</y>
+        <width>620</width>
+        <height>333</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>8.jpg</pixmap>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="switch_Botanical_Garden_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>660</y>
+        <width>311</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>22</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:#FFFFFF;</string>
+      </property>
+      <property name="text">
+       <string>Ботанический сад</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="switch_Kumzhenskaya_Grove_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>970</x>
+        <y>660</y>
+        <width>311</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>22</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:#FFFFFF;</string>
+      </property>
+      <property name="text">
+       <string>Кумженская роща</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Botanical_Garden_Page_4">
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1600</width>
+        <height>900</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>5.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="switch_Botanical_Page__Railway_area_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>50</y>
+        <width>171</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(0,0,0,0);
+border: none;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Photo_Botanical_Garden_label">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>200</y>
+        <width>771</width>
+        <height>421</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>8.jpg</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Name_Botanical_Garden_label">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>50</y>
+        <width>881</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>35</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Adress_Botanical_Garden_label">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>660</y>
+        <width>771</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>25</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Description_Botanical_Garden_label">
+      <property name="geometry">
+       <rect>
+        <x>883</x>
+        <y>205</y>
+        <width>647</width>
+        <height>655</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #16283d;
+color: #e1dbd5;</string>
+      </property>
+      <property name="text">
+       <string>.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Kumzhenskaya_Grove_Page_5">
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1600</width>
+        <height>900</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>5.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="switch_Kumzhenskaya_Grove__Railway_area_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>50</y>
+        <width>171</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(0,0,0,0);
+border: none;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Adress_Kumzhenskaya_Grove_label">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>660</y>
+        <width>771</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>25</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Description_Kumzhenskaya_Grove_label">
+      <property name="geometry">
+       <rect>
+        <x>883</x>
+        <y>205</y>
+        <width>647</width>
+        <height>655</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #16283d;
+color: #e1dbd5;</string>
+      </property>
+      <property name="text">
+       <string>.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Name_Kumzhenskaya_Grove_label">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>50</y>
+        <width>881</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>35</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Photo_Kumzhenskaya_Grove_label">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>200</y>
+        <width>771</width>
+        <height>421</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>8.jpg</pixmap>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Voroshilovsky_area_Page_6">
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1600</width>
+        <height>900</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>4.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="SKA_Grove_photo">
+      <property name="geometry">
+       <rect>
+        <x>153</x>
+        <y>265</y>
+        <width>620</width>
+        <height>333</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>8.jpg</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Chorchakh_spring_photo">
+      <property name="geometry">
+       <rect>
+        <x>826</x>
+        <y>265</y>
+        <width>620</width>
+        <height>333</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>8.jpg</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_11">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>110</y>
+        <width>881</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>35</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>Ворошиловский район</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_12">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>720</y>
+        <width>571</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>17</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+        <underline>false</underline>
+        <strikeout>false</strikeout>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>Ростов-на-Дону, роща СКА</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_13">
+      <property name="geometry">
+       <rect>
+        <x>830</x>
+        <y>720</y>
+        <width>571</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>17</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+        <underline>false</underline>
+        <strikeout>false</strikeout>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>Ростов-на-Дону, микрорайон Мясникован</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="switch_SKA_Grove_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>660</y>
+        <width>311</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>22</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:#FFFFFF;</string>
+      </property>
+      <property name="text">
+       <string>Роща СКА</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="switch_Chorchakh_spring_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>970</x>
+        <y>660</y>
+        <width>311</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>22</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:#FFFFFF;</string>
+      </property>
+      <property name="text">
+       <string>Родник Чорчах</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="switch_Voroshilovsky_area__Areas_Page_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>50</y>
+        <width>171</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(0,0,0,0);
+border: none;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="SKA_Grove_Page_7">
+     <widget class="QLabel" name="label_14">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1600</width>
+        <height>900</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>5.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Adress_SKA_Grove_label">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>660</y>
+        <width>771</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>25</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Description_SKA_Grove_label">
+      <property name="geometry">
+       <rect>
+        <x>883</x>
+        <y>205</y>
+        <width>647</width>
+        <height>655</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #16283d;
+color: #e1dbd5;</string>
+      </property>
+      <property name="text">
+       <string>.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Name_SKA_Grove_label">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>50</y>
+        <width>881</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>35</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Photo_SKA_Grove_label">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>200</y>
+        <width>771</width>
+        <height>421</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>8.jpg</pixmap>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="switch_SKA_Grove__Voroshilovsky_area_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>50</y>
+        <width>171</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(0,0,0,0);
+border: none;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Chorchakh_Spring_Page_8">
+     <widget class="QLabel" name="label_15">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1600</width>
+        <height>900</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>5.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Adress_Chorchakh_Spring_label">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>660</y>
+        <width>771</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>25</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Description_Chorchakh_Spring_label">
+      <property name="geometry">
+       <rect>
+        <x>883</x>
+        <y>205</y>
+        <width>647</width>
+        <height>655</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #16283d;
+color: #e1dbd5;</string>
+      </property>
+      <property name="text">
+       <string>.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Name_Chorchakh_Spring_label">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>50</y>
+        <width>881</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>35</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Photo_Chorchakh_Spring_label">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>200</y>
+        <width>771</width>
+        <height>421</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>8.jpg</pixmap>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="switch_Chorchakh_Spring__Voroshilovsky_area_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>50</y>
+        <width>171</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(0,0,0,0);
+border: none;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Pervomaisky_area_Page_9">
+     <widget class="QLabel" name="Mozhayskiye_Ponds_photo">
+      <property name="geometry">
+       <rect>
+        <x>153</x>
+        <y>265</y>
+        <width>620</width>
+        <height>333</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>8.jpg</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Olympus_photo">
+      <property name="geometry">
+       <rect>
+        <x>826</x>
+        <y>265</y>
+        <width>620</width>
+        <height>333</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>8.jpg</pixmap>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="switch_Mozhayskiye_Ponds_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>660</y>
+        <width>311</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>22</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:#FFFFFF;</string>
+      </property>
+      <property name="text">
+       <string>Можайские пруды</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_16">
+      <property name="geometry">
+       <rect>
+        <x>830</x>
+        <y>720</y>
+        <width>571</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>17</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+        <underline>false</underline>
+        <strikeout>false</strikeout>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>Ростов-на-Дону, просп. Шолохова, 31Е</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_17">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1600</width>
+        <height>900</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>4.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="switch_Olympus_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>970</x>
+        <y>660</y>
+        <width>311</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>22</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:#FFFFFF;</string>
+      </property>
+      <property name="text">
+       <string>Олимп-2</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="switch_Pervomaisky_area__Areas_Page_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>50</y>
+        <width>171</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(0,0,0,0);
+border: none;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_18">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>110</y>
+        <width>881</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>35</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>Первомайский район</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_19">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>720</y>
+        <width>571</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>17</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+        <underline>false</underline>
+        <strikeout>false</strikeout>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>Ростов-на-Дону, Можайские пруды</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <zorder>label_17</zorder>
+     <zorder>switch_Mozhayskiye_Ponds_pushButton</zorder>
+     <zorder>Mozhayskiye_Ponds_photo</zorder>
+     <zorder>Olympus_photo</zorder>
+     <zorder>label_16</zorder>
+     <zorder>label_18</zorder>
+     <zorder>label_19</zorder>
+     <zorder>switch_Olympus_pushButton</zorder>
+     <zorder>switch_Pervomaisky_area__Areas_Page_pushButton</zorder>
+    </widget>
+    <widget class="QWidget" name="Mozhaiskiye_Ponds_Page_10">
+     <widget class="QLabel" name="label_20">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1600</width>
+        <height>900</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>5.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Adress_Mozhaiskiye_Ponds_label">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>660</y>
+        <width>771</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>25</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="switch_Mozhaiskiye_Ponds__Pervomaisky_area_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>50</y>
+        <width>171</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(0,0,0,0);
+border: none;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Description_Mozhaiskiye_Ponds_label">
+      <property name="geometry">
+       <rect>
+        <x>883</x>
+        <y>205</y>
+        <width>647</width>
+        <height>655</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #16283d;
+color: #e1dbd5;</string>
+      </property>
+      <property name="text">
+       <string>.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Name_Mozhaiskiye_Ponds_label">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>50</y>
+        <width>881</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>35</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Photo_Mozhaiskiye_Ponds_label">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>200</y>
+        <width>771</width>
+        <height>421</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>8.jpg</pixmap>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Olympus_Page_11">
+     <widget class="QLabel" name="Adress_Olympus_label">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>660</y>
+        <width>771</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>25</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="switch_Olympus__Pervomaisky_area_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>50</y>
+        <width>171</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(0,0,0,0);
+border: none;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Name_Olympus_label">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>50</y>
+        <width>881</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>35</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Description_Olympus_label">
+      <property name="geometry">
+       <rect>
+        <x>883</x>
+        <y>205</y>
+        <width>647</width>
+        <height>655</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #16283d;
+color: #e1dbd5;</string>
+      </property>
+      <property name="text">
+       <string>.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Photo_Olympus_label">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>200</y>
+        <width>771</width>
+        <height>421</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>8.jpg</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_21">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1600</width>
+        <height>900</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>5.png</pixmap>
+      </property>
+     </widget>
+     <zorder>label_21</zorder>
+     <zorder>Adress_Olympus_label</zorder>
+     <zorder>Description_Olympus_label</zorder>
+     <zorder>Name_Olympus_label</zorder>
+     <zorder>Photo_Olympus_label</zorder>
+     <zorder>switch_Olympus__Pervomaisky_area_pushButton</zorder>
+    </widget>
+    <widget class="QWidget" name="Proletarsky_area_Page_12">
+     <widget class="QLabel" name="label_24">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>110</y>
+        <width>881</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>35</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>Пролетарский район</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_25">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>720</y>
+        <width>571</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>17</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+        <underline>false</underline>
+        <strikeout>false</strikeout>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>Ростов-на-Дону, Театральная площадь, 3</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="switch_Gorky_Theater_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>940</x>
+        <y>660</y>
+        <width>391</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>22</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:#FFFFFF;</string>
+      </property>
+      <property name="text">
+       <string>Театр имени М.Горького</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Revolution_Park_photo">
+      <property name="geometry">
+       <rect>
+        <x>153</x>
+        <y>265</y>
+        <width>620</width>
+        <height>333</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>8.jpg</pixmap>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="switch_Proletarsky_area__Areas_Page_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>50</y>
+        <width>171</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(0,0,0,0);
+border: none;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Gorky_Theater_photo">
+      <property name="geometry">
+       <rect>
+        <x>826</x>
+        <y>265</y>
+        <width>620</width>
+        <height>333</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>8.jpg</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_26">
+      <property name="geometry">
+       <rect>
+        <x>830</x>
+        <y>720</y>
+        <width>571</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>17</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+        <underline>false</underline>
+        <strikeout>false</strikeout>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>Ростов-на-Дону, Театральная площадь, 1</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_27">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1600</width>
+        <height>900</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>4.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="switch_Revolution_Park_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>660</y>
+        <width>311</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>22</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:#FFFFFF;</string>
+      </property>
+      <property name="text">
+       <string>Парк революции</string>
+      </property>
+     </widget>
+     <zorder>label_27</zorder>
+     <zorder>Revolution_Park_photo</zorder>
+     <zorder>Gorky_Theater_photo</zorder>
+     <zorder>label_24</zorder>
+     <zorder>label_25</zorder>
+     <zorder>label_26</zorder>
+     <zorder>switch_Revolution_Park_pushButton</zorder>
+     <zorder>switch_Gorky_Theater_pushButton</zorder>
+     <zorder>switch_Proletarsky_area__Areas_Page_pushButton</zorder>
+    </widget>
+    <widget class="QWidget" name="Revolution_Park_Page_13">
+     <widget class="QLabel" name="label_22">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1600</width>
+        <height>900</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>5.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Photo_Revolution_Park_label">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>200</y>
+        <width>771</width>
+        <height>421</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>8.jpg</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Name_Revolution_Park_label">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>50</y>
+        <width>881</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>35</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Adress_Revolution_Park_label">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>660</y>
+        <width>771</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>25</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="switch_Revolution_Park__Proletarsky_area_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>50</y>
+        <width>171</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(0,0,0,0);
+border: none;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Description_Revolution_Park_label">
+      <property name="geometry">
+       <rect>
+        <x>883</x>
+        <y>205</y>
+        <width>647</width>
+        <height>655</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #16283d;
+color: #e1dbd5;</string>
+      </property>
+      <property name="text">
+       <string>.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Gorky_Theater_Page_14">
+     <widget class="QLabel" name="label_23">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1600</width>
+        <height>900</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>5.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Photo_Gorky_Theater_label">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>200</y>
+        <width>771</width>
+        <height>421</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>8.jpg</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Name_Gorky_Theater_label">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>50</y>
+        <width>881</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>35</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Adress_Gorky_Theater_label">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>660</y>
+        <width>771</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>25</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="switch_Gorky_Theater__Proletarsky_area_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>50</y>
+        <width>171</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(0,0,0,0);
+border: none;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Description_Gorky_Theater_label">
+      <property name="geometry">
+       <rect>
+        <x>883</x>
+        <y>205</y>
+        <width>647</width>
+        <height>655</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #16283d;
+color: #e1dbd5;</string>
+      </property>
+      <property name="text">
+       <string>.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Kirovsky_area_Page_15">
+     <widget class="QLabel" name="Bogatyanovsky_Source_photo">
+      <property name="geometry">
+       <rect>
+        <x>153</x>
+        <y>265</y>
+        <width>620</width>
+        <height>333</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>8.jpg</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_30">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>720</y>
+        <width>571</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>17</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+        <underline>false</underline>
+        <strikeout>false</strikeout>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>Ростов-на-Дону, проспект Богатяновский Спуск</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_31">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>110</y>
+        <width>881</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>35</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>Кировский район</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="switch_Kirovsky_area__Areas_Page_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>50</y>
+        <width>171</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(0,0,0,0);
+border: none;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_32">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1600</width>
+        <height>900</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>4.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Rostov_Arena_photo">
+      <property name="geometry">
+       <rect>
+        <x>826</x>
+        <y>265</y>
+        <width>620</width>
+        <height>333</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>8.jpg</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_33">
+      <property name="geometry">
+       <rect>
+        <x>830</x>
+        <y>720</y>
+        <width>571</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>17</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+        <underline>false</underline>
+        <strikeout>false</strikeout>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>Ростов-на-Дону, Левобережная ул., 2Б</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="switch_Bogatyanovsky_Source_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>660</y>
+        <width>371</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>22</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:#FFFFFF;</string>
+      </property>
+      <property name="text">
+       <string>Богатяновский источник</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="switch_Rostov_Arena_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>970</x>
+        <y>660</y>
+        <width>391</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>22</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:#FFFFFF;</string>
+      </property>
+      <property name="text">
+       <string>Ростов-Арена</string>
+      </property>
+     </widget>
+     <zorder>label_32</zorder>
+     <zorder>Rostov_Arena_photo</zorder>
+     <zorder>label_33</zorder>
+     <zorder>Bogatyanovsky_Source_photo</zorder>
+     <zorder>label_30</zorder>
+     <zorder>label_31</zorder>
+     <zorder>switch_Rostov_Arena_pushButton</zorder>
+     <zorder>switch_Kirovsky_area__Areas_Page_pushButton</zorder>
+     <zorder>switch_Bogatyanovsky_Source_pushButton</zorder>
+    </widget>
+    <widget class="QWidget" name="Bogatyanovsky_Source_Page_16">
+     <widget class="QLabel" name="Description_Bogatyanovsky_Source_label">
+      <property name="geometry">
+       <rect>
+        <x>883</x>
+        <y>205</y>
+        <width>647</width>
+        <height>655</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #16283d;
+color: #e1dbd5;</string>
+      </property>
+      <property name="text">
+       <string>.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="switch_Bogatyanovsky_Source__Kirovsky_area_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>50</y>
+        <width>171</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(0,0,0,0);
+border: none;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Name_Bogatyanovsky_Source_label">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>50</y>
+        <width>881</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>35</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Photo_Bogatyanovsky_Source_label">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>200</y>
+        <width>771</width>
+        <height>421</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>8.jpg</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Adress_Bogatyanovsky_Source_label">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>660</y>
+        <width>771</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>25</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_28">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1600</width>
+        <height>900</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>5.png</pixmap>
+      </property>
+     </widget>
+     <zorder>label_28</zorder>
+     <zorder>Adress_Bogatyanovsky_Source_label</zorder>
+     <zorder>Description_Bogatyanovsky_Source_label</zorder>
+     <zorder>Name_Bogatyanovsky_Source_label</zorder>
+     <zorder>Photo_Bogatyanovsky_Source_label</zorder>
+     <zorder>switch_Bogatyanovsky_Source__Kirovsky_area_pushButton</zorder>
+    </widget>
+    <widget class="QWidget" name="Rostov_Arena_Page_17">
+     <widget class="QLabel" name="Description_Rostov_Arena_label">
+      <property name="geometry">
+       <rect>
+        <x>883</x>
+        <y>205</y>
+        <width>647</width>
+        <height>655</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #16283d;
+color: #e1dbd5;</string>
+      </property>
+      <property name="text">
+       <string>.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="switch_Rostov_Arena__Kirovsky_area_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>50</y>
+        <width>171</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(0,0,0,0);
+border: none;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Name_Rostov_Arena_label">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>50</y>
+        <width>881</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>35</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Photo_Rostov_Arena_label">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>200</y>
+        <width>771</width>
+        <height>421</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>8.jpg</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Adress_Rostov_Arena_label">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>660</y>
+        <width>771</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>25</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_29">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1600</width>
+        <height>900</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>5.png</pixmap>
+      </property>
+     </widget>
+     <zorder>label_29</zorder>
+     <zorder>Adress_Rostov_Arena_label</zorder>
+     <zorder>Description_Rostov_Arena_label</zorder>
+     <zorder>Name_Rostov_Arena_label</zorder>
+     <zorder>Photo_Rostov_Arena_label</zorder>
+     <zorder>switch_Rostov_Arena__Kirovsky_area_pushButton</zorder>
+    </widget>
+    <widget class="QWidget" name="Leninsky_area_Page_18">
+     <widget class="QLabel" name="Cathedral_photo">
+      <property name="geometry">
+       <rect>
+        <x>826</x>
+        <y>265</y>
+        <width>620</width>
+        <height>333</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>8.jpg</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Rostov_Circus_photo">
+      <property name="geometry">
+       <rect>
+        <x>153</x>
+        <y>265</y>
+        <width>620</width>
+        <height>333</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>8.jpg</pixmap>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="switch_Rostov_Circus_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>660</y>
+        <width>371</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>22</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:#FFFFFF;</string>
+      </property>
+      <property name="text">
+       <string>Ростовский цирк</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_36">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>720</y>
+        <width>571</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>17</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+        <underline>false</underline>
+        <strikeout>false</strikeout>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>Ростов-на-Дону, Будённовский просп., 45</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_37">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1600</width>
+        <height>900</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>4.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_38">
+      <property name="geometry">
+       <rect>
+        <x>830</x>
+        <y>720</y>
+        <width>571</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>17</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+        <underline>false</underline>
+        <strikeout>false</strikeout>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>Ростов-на-Дону, ул. Станиславского, 58</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="switch_Cathedral_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>900</x>
+        <y>660</y>
+        <width>461</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>22</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:#FFFFFF;</string>
+      </property>
+      <property name="text">
+       <string>Собор Рождества Богородицы</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="switch_Leninsky_area__Areas_Page_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>50</y>
+        <width>171</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(0,0,0,0);
+border: none;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_39">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>110</y>
+        <width>881</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>35</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>Ленинский район</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <zorder>label_37</zorder>
+     <zorder>label_38</zorder>
+     <zorder>label_39</zorder>
+     <zorder>Cathedral_photo</zorder>
+     <zorder>Rostov_Circus_photo</zorder>
+     <zorder>label_36</zorder>
+     <zorder>switch_Rostov_Circus_pushButton</zorder>
+     <zorder>switch_Leninsky_area__Areas_Page_pushButton</zorder>
+     <zorder>switch_Cathedral_pushButton</zorder>
+    </widget>
+    <widget class="QWidget" name="Rostov_Circus_Page_19">
+     <widget class="QLabel" name="Photo_Rostov_Circus_label">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>200</y>
+        <width>771</width>
+        <height>421</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>8.jpg</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Description_Rostov_Circus_label">
+      <property name="geometry">
+       <rect>
+        <x>883</x>
+        <y>205</y>
+        <width>647</width>
+        <height>655</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #16283d;
+color: #e1dbd5;</string>
+      </property>
+      <property name="text">
+       <string>.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_35">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1600</width>
+        <height>900</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>5.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Adress_Rostov_Circus_label">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>660</y>
+        <width>771</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>25</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="switch_Rostov_Circus__Leninsky_area_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>50</y>
+        <width>171</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(0,0,0,0);
+border: none;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Name_Rostov_Circus_label">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>50</y>
+        <width>881</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>35</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <zorder>label_35</zorder>
+     <zorder>Adress_Rostov_Circus_label</zorder>
+     <zorder>Description_Rostov_Circus_label</zorder>
+     <zorder>Name_Rostov_Circus_label</zorder>
+     <zorder>Photo_Rostov_Circus_label</zorder>
+     <zorder>switch_Rostov_Circus__Leninsky_area_pushButton</zorder>
+    </widget>
+    <widget class="QWidget" name="Cathedral_Page_20">
+     <widget class="QLabel" name="Photo_Cathedral_label">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>200</y>
+        <width>771</width>
+        <height>421</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>8.jpg</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Description_Cathedral_label">
+      <property name="geometry">
+       <rect>
+        <x>883</x>
+        <y>205</y>
+        <width>647</width>
+        <height>655</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #16283d;
+color: #e1dbd5;</string>
+      </property>
+      <property name="text">
+       <string>.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_34">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1600</width>
+        <height>900</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>5.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Adress_Cathedral_label">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>660</y>
+        <width>771</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>25</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="switch_Cathedral__Leninsky_area_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>50</y>
+        <width>171</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(0,0,0,0);
+border: none;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Name_Cathedral_label">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>50</y>
+        <width>881</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>35</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <zorder>label_34</zorder>
+     <zorder>Adress_Cathedral_label</zorder>
+     <zorder>Description_Cathedral_label</zorder>
+     <zorder>Name_Cathedral_label</zorder>
+     <zorder>Photo_Cathedral_label</zorder>
+     <zorder>switch_Cathedral__Leninsky_area_pushButton</zorder>
+    </widget>
+    <widget class="QWidget" name="Oktyabrsky_area_Page_21">
+     <widget class="QPushButton" name="switch_Tenement_House_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>900</x>
+        <y>660</y>
+        <width>461</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>22</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:#FFFFFF;</string>
+      </property>
+      <property name="text">
+       <string>Доходный дом Трофименко</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Rostov_Zoo_photo">
+      <property name="geometry">
+       <rect>
+        <x>153</x>
+        <y>265</y>
+        <width>620</width>
+        <height>333</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>8.jpg</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Tenement_House_photo">
+      <property name="geometry">
+       <rect>
+        <x>826</x>
+        <y>265</y>
+        <width>620</width>
+        <height>333</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>8.jpg</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_42">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>720</y>
+        <width>571</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>17</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+        <underline>false</underline>
+        <strikeout>false</strikeout>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>Ростов-на-Дону, Зоологическая ул., 3</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_43">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1600</width>
+        <height>900</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>4.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="switch_Oktyabrsky_area__Areas_Page_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>50</y>
+        <width>171</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(0,0,0,0);
+border: none;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_44">
+      <property name="geometry">
+       <rect>
+        <x>840</x>
+        <y>720</y>
+        <width>571</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>17</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+        <underline>false</underline>
+        <strikeout>false</strikeout>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>Ростов-на-Дону, пер. Семашко, 73/158</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_45">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>110</y>
+        <width>881</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>35</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>Октябрьский район</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="switch_Rostov_Zoo_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>660</y>
+        <width>371</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>22</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:#FFFFFF;</string>
+      </property>
+      <property name="text">
+       <string>Ростовский зоопарк</string>
+      </property>
+     </widget>
+     <zorder>label_43</zorder>
+     <zorder>Tenement_House_photo</zorder>
+     <zorder>Rostov_Zoo_photo</zorder>
+     <zorder>label_42</zorder>
+     <zorder>label_44</zorder>
+     <zorder>label_45</zorder>
+     <zorder>switch_Tenement_House_pushButton</zorder>
+     <zorder>switch_Oktyabrsky_area__Areas_Page_pushButton</zorder>
+     <zorder>switch_Rostov_Zoo_pushButton</zorder>
+    </widget>
+    <widget class="QWidget" name="Rostov_Zoo_Page_22">
+     <widget class="QLabel" name="Description_Rostov_Zoo_label">
+      <property name="geometry">
+       <rect>
+        <x>883</x>
+        <y>205</y>
+        <width>647</width>
+        <height>655</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #16283d;
+color: #e1dbd5;</string>
+      </property>
+      <property name="text">
+       <string>.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Name_Rostov_Zoo_label">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>50</y>
+        <width>881</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>35</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="switch_Rostov_Zoo__Oktyabrsky_area_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>50</y>
+        <width>171</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(0,0,0,0);
+border: none;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_41">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1600</width>
+        <height>900</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>5.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Adress_Rostov_Zoo_label">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>660</y>
+        <width>771</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>25</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Photo_Rostov_Zoo_label">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>200</y>
+        <width>771</width>
+        <height>421</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>8.jpg</pixmap>
+      </property>
+     </widget>
+     <zorder>label_41</zorder>
+     <zorder>Adress_Rostov_Zoo_label</zorder>
+     <zorder>Description_Rostov_Zoo_label</zorder>
+     <zorder>Name_Rostov_Zoo_label</zorder>
+     <zorder>Photo_Rostov_Zoo_label</zorder>
+     <zorder>switch_Rostov_Zoo__Oktyabrsky_area_pushButton</zorder>
+    </widget>
+    <widget class="QWidget" name="Tenement_House_Page_23">
+     <widget class="QLabel" name="Description_Tenement_House_label">
+      <property name="geometry">
+       <rect>
+        <x>883</x>
+        <y>205</y>
+        <width>647</width>
+        <height>655</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #16283d;
+color: #e1dbd5;</string>
+      </property>
+      <property name="text">
+       <string>.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Name_Tenement_House_label">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>50</y>
+        <width>881</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>35</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="switch_Tenement_House__Oktyabrsky_area_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>50</y>
+        <width>171</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(0,0,0,0);
+border: none;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_40">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1600</width>
+        <height>900</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>5.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Adress_Tenement_House_label">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>660</y>
+        <width>771</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>25</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Photo_Tenement_House_label">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>200</y>
+        <width>771</width>
+        <height>421</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>8.jpg</pixmap>
+      </property>
+     </widget>
+     <zorder>label_40</zorder>
+     <zorder>Adress_Tenement_House_label</zorder>
+     <zorder>Description_Tenement_House_label</zorder>
+     <zorder>Name_Tenement_House_label</zorder>
+     <zorder>Photo_Tenement_House_label</zorder>
+     <zorder>switch_Tenement_House__Oktyabrsky_area_pushButton</zorder>
+    </widget>
+    <widget class="QWidget" name="Soviet_area_Page_24">
+     <widget class="QLabel" name="Dolphinarium_photo">
+      <property name="geometry">
+       <rect>
+        <x>826</x>
+        <y>265</y>
+        <width>620</width>
+        <height>333</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>8.jpg</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_46">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>720</y>
+        <width>571</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>17</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+        <underline>false</underline>
+        <strikeout>false</strikeout>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>Ростов-на-Дону, пер. 
+Коммунистический просп., 36/4</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="switch_Dolphinarium_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>910</x>
+        <y>660</y>
+        <width>461</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>22</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:#FFFFFF;</string>
+      </property>
+      <property name="text">
+       <string>Дельфинарий</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_47">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>110</y>
+        <width>881</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>35</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>Советский район</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="switch_Ice_Arena_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>660</y>
+        <width>371</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>22</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:#FFFFFF;</string>
+      </property>
+      <property name="text">
+       <string>Ice-Arena</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_48">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1600</width>
+        <height>900</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>4.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Ice_Arena_photo">
+      <property name="geometry">
+       <rect>
+        <x>153</x>
+        <y>265</y>
+        <width>620</width>
+        <height>333</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>8.jpg</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_49">
+      <property name="geometry">
+       <rect>
+        <x>830</x>
+        <y>720</y>
+        <width>571</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>17</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+        <underline>false</underline>
+        <strikeout>false</strikeout>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>Ростов-на-Дону, 
+Коммунистический просп., 36/4</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="switch_Soviet_area__Areas_Page_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>50</y>
+        <width>171</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(0,0,0,0);
+border: none;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <zorder>label_48</zorder>
+     <zorder>Ice_Arena_photo</zorder>
+     <zorder>Dolphinarium_photo</zorder>
+     <zorder>label_46</zorder>
+     <zorder>label_47</zorder>
+     <zorder>label_49</zorder>
+     <zorder>switch_Soviet_area__Areas_Page_pushButton</zorder>
+     <zorder>switch_Ice_Arena_pushButton</zorder>
+     <zorder>switch_Dolphinarium_pushButton</zorder>
+    </widget>
+    <widget class="QWidget" name="Ice_Arena_Page_25">
+     <widget class="QLabel" name="Photo_Ice_Arena_label">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>200</y>
+        <width>771</width>
+        <height>421</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>8.jpg</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Adress_Ice_Arena_label">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>660</y>
+        <width>771</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>25</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="switch_Ice_Arena__Soviet_area_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>50</y>
+        <width>171</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(0,0,0,0);
+border: none;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Name_Ice_Arena_label">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>50</y>
+        <width>881</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>35</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Description_Ice_Arena_label">
+      <property name="geometry">
+       <rect>
+        <x>883</x>
+        <y>205</y>
+        <width>647</width>
+        <height>655</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #16283d;
+color: #e1dbd5;</string>
+      </property>
+      <property name="text">
+       <string>.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_50">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1600</width>
+        <height>900</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>5.png</pixmap>
+      </property>
+     </widget>
+     <zorder>label_50</zorder>
+     <zorder>Adress_Ice_Arena_label</zorder>
+     <zorder>Description_Ice_Arena_label</zorder>
+     <zorder>Name_Ice_Arena_label</zorder>
+     <zorder>Photo_Ice_Arena_label</zorder>
+     <zorder>switch_Ice_Arena__Soviet_area_pushButton</zorder>
+    </widget>
+    <widget class="QWidget" name="Dolphinarium_Page_26">
+     <widget class="QLabel" name="Photo_Dolphinarium_label">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>200</y>
+        <width>771</width>
+        <height>421</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>8.jpg</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Adress_Dolphinarium_label">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>660</y>
+        <width>771</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>25</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="switch_Dolphinarium__Soviet_area_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>50</y>
+        <width>171</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(0,0,0,0);
+border: none;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Name_Dolphinarium_label">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>50</y>
+        <width>881</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>35</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFFFFF;
+color:rgb(57, 57, 57);</string>
+      </property>
+      <property name="text">
+       <string>.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Description_Dolphinarium_label">
+      <property name="geometry">
+       <rect>
+        <x>883</x>
+        <y>205</y>
+        <width>647</width>
+        <height>655</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monotype Corsiva</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #16283d;
+color: #e1dbd5;</string>
+      </property>
+      <property name="text">
+       <string>.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_51">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1600</width>
+        <height>900</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>5.png</pixmap>
+      </property>
+     </widget>
+     <zorder>label_51</zorder>
+     <zorder>Adress_Dolphinarium_label</zorder>
+     <zorder>Description_Dolphinarium_label</zorder>
+     <zorder>Name_Dolphinarium_label</zorder>
+     <zorder>Photo_Dolphinarium_label</zorder>
+     <zorder>switch_Dolphinarium__Soviet_area_pushButton</zorder>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
